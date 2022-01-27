@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/jerrynote/static/css/main.073c9b0a.css",
-    "main.js": "/jerrynote/static/js/main.fbb2ff97.js",
-    "static/js/787.43165d9f.chunk.js": "/jerrynote/static/js/787.43165d9f.chunk.js",
+    "main.css": "/jerrynote/static/css/main.4e17cc42.css",
+    "main.js": "/jerrynote/static/js/main.17d3dd23.js",
+    "static/media/bling.gif": "/jerrynote/static/media/bling.f579f28f1fcb1bba4db7.gif",
     "index.html": "/jerrynote/index.html",
-    "main.073c9b0a.css.map": "/jerrynote/static/css/main.073c9b0a.css.map",
-    "main.fbb2ff97.js.map": "/jerrynote/static/js/main.fbb2ff97.js.map",
-    "787.43165d9f.chunk.js.map": "/jerrynote/static/js/787.43165d9f.chunk.js.map"
+    "main.4e17cc42.css.map": "/jerrynote/static/css/main.4e17cc42.css.map",
+    "main.17d3dd23.js.map": "/jerrynote/static/js/main.17d3dd23.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fbb2ff97.js"
+    "static/css/main.4e17cc42.css",
+    "static/js/main.17d3dd23.js"
   ]
 }
