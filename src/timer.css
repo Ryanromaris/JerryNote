@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background-color: #090d02;
+  color: white;
+}
+.box {
+  border: 1px blanchedalmond solid;
+  padding: 60px;
+}
+.main_container {
+  display: flex;
+
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.expect {
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 32px;
+}
+
+.expectSubmit {
+  width: 100px;
+  height: 50px;
+}
+
+.plusBtn {
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+}
+.GameBtn {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  height: 20px;
+  border: 1px yellowgreen solid;
+  margin: 15px;
+  transition: ease-out 100ms;
+}
+
+.GameBtn:hover {
+  transform: scale(1.1);
+  background-color: tomato;
+  border: none;
+}
+
+.goToHome {
+  padding: 30px;
+  border: 1px burlywood solid;
+}
+.goToHome:hover {
+  transform: scale(1.1);
+  background-color: tomato;
+  border: none;
+}
+.start_box {
+  border: 1px burlywood solid;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+}
+
+.result_box {
+  border: 1px burlywood solid;
+  padding: 60px;
+  text-align: center;
+}
+.result_box > div {
+  margin: 10px;
+}
