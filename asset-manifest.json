@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jerrynote/static/css/main.4e17cc42.css",
-    "main.js": "/jerrynote/static/js/main.17d3dd23.js",
+    "main.js": "/jerrynote/static/js/main.8ad38e04.js",
     "static/media/bling.gif": "/jerrynote/static/media/bling.f579f28f1fcb1bba4db7.gif",
     "index.html": "/jerrynote/index.html",
     "main.4e17cc42.css.map": "/jerrynote/static/css/main.4e17cc42.css.map",
-    "main.17d3dd23.js.map": "/jerrynote/static/js/main.17d3dd23.js.map"
+    "main.8ad38e04.js.map": "/jerrynote/static/js/main.8ad38e04.js.map"
   },
   "entrypoints": [
     "static/css/main.4e17cc42.css",
-    "static/js/main.17d3dd23.js"
+    "static/js/main.8ad38e04.js"
   ]
 }
