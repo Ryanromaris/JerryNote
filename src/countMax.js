@@ -106,7 +106,7 @@ const CountMax = () => {
             </div>
             <Link
               style={{ color: 'inherit', textDecoration: 'inherit' }}
-              to='/jerrynote'
+              to='/jerrynote/'
             >
               <div className='goToHome'>처음으로 돌아가기</div>
             </Link>

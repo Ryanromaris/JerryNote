@@ -33,6 +33,12 @@ body {
   height: 50px;
   font-size: 40px;
 }
+.plusBtn:active,
+.plusBtn:focus {
+  border: none;
+  box-shadow: none;
+}
+
 .GameBtn {
   text-align: center;
   padding: 20px;
