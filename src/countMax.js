@@ -18,30 +18,31 @@ const CountMax = () => {
   const makeRandomStar = () => {
     let x = generateRandomInt(0, 95);
     let y = generateRandomInt(0, 90);
-    if (x >= 35 && x <= 60 && y >= 30 && y <= 60) {
-      x += 25;
-      y += 30;
-    }
-    let root = document.querySelector('.main_container');
-    let star = document.createElement('img');
-    star.style.width = '60px';
-    star.style.height = '60px';
-    star.setAttribute('src', img);
-    star.style.left = `${x}vw`;
-    star.style.top = `${y}vh`;
-    star.style.position = 'absolute';
-    var fadeEffect = setInterval(function () {
-      if (!star.style.opacity) {
-        star.style.opacity = 1;
-      }
-      if (star.style.opacity > 0) {
-        star.style.opacity -= 0.1;
-      } else {
-        clearInterval(fadeEffect);
-      }
-    }, 100);
 
-    root.append(star);
+    if (x >= 10 && x <= 75 && y >= 30 && y <= 60) {
+    } else {
+      let root = document.querySelector('.main_container');
+      let star = document.createElement('img');
+      star.style.width = '60px';
+      star.style.height = '60px';
+      star.setAttribute('src', img);
+      star.style.left = `${x}vw`;
+      star.style.top = `${y}vh`;
+      star.style.position = 'absolute';
+      let fadeEffect = setInterval(function () {
+        if (!star.style.opacity) {
+          star.style.opacity = 1;
+        }
+        if (star.style.opacity > 0) {
+          star.style.opacity -= 0.1;
+        } else {
+          clearInterval(fadeEffect);
+        }
+      }, 300);
+
+      root.append(star);
+      setTimeout(() => star.remove(), 3000);
+    }
   };
   const [time, setTime] = useState(10);
 
@@ -105,7 +106,7 @@ const CountMax = () => {
             </div>
             <Link
               style={{ color: 'inherit', textDecoration: 'inherit' }}
-              to='/'
+              to='/jerrynote'
             >
               <div className='goToHome'>처음으로 돌아가기</div>
             </Link>
@@ -121,11 +122,13 @@ const CountMax = () => {
             </button>
           </>
         ) : view === 'end' ? (
-          <div className='result_box'>
-            <div>클릭 횟수:{counting}</div>
-            <div>최고 기록: {localStorage.getItem('bestCount')}</div>
-
+          <>
+            <div className='result_box'>
+              <div>클릭 횟수:{counting}</div>
+              <div>최고 기록: {localStorage.getItem('bestCount')}</div>
+            </div>
             <button
+              style={{ margin: '20px' }}
               onClick={() => {
                 setView('landing');
                 setCounting(0);
@@ -133,7 +136,7 @@ const CountMax = () => {
             >
               다시하기
             </button>
-          </div>
+          </>
         ) : (
           ''
         )}

@@ -5,7 +5,7 @@ body {
 }
 .box {
   border: 1px blanchedalmond solid;
-  padding: 60px;
+  padding: 40px 0px;
 }
 .main_container {
   display: flex;
@@ -44,6 +44,11 @@ body {
 }
 
 .GameBtn:hover {
+  transform: scale(1.1);
+  background-color: tomato;
+  border: none;
+}
+.GameBtn:active {
   transform: scale(1.1);
   background-color: tomato;
   border: none;
