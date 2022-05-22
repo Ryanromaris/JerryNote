@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  background-color: #090d02;
-  color: white;
 }
 .box {
   border: 1px blanchedalmond solid;
@@ -9,6 +7,9 @@ body {
 }
 .main_container {
   display: flex;
+
+  background-color: #090d02;
+  color: white;
 
   height: 100vh;
   align-items: center;
