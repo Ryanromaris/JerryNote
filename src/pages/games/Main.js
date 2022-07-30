@@ -19,6 +19,14 @@ const Main = () => {
           >
             <div className={styles.GameBtn}>Go to Count Max Expect Game!</div>
           </Link>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/testGame"
+          >
+            <div className={styles.GameBtn}>
+              Go to I don't know what it is Yet
+            </div>
+          </Link>
         </div>
       </div>
     </div>
